@@ -1,3 +1,4 @@
+[article](https://medium.com/@AI_Whisperer/revolutionize-your-speech-recognition-system-with-deep-siamese-embeddings-6fcb06145d32)
 The code provided is a Python implementation of a deep learning model for speech recognition using a DSE (Deep Speaker Embeddings) architecture. The model is composed of a convolutional neural network (CNN), a recurrent neural network (RNN), and an embedding layer. The model is trained using a contrastive loss function and the Adam optimizer.
 
 The CNN is used to extract features from the audio signal in the form of spectrograms. The spectrograms are then fed into the RNN, which processes them sequentially to capture temporal dependencies. The RNN is a bidirectional LSTM, which means that it processes the input sequence both forwards and backwards, allowing it to capture both past and future contexts.
